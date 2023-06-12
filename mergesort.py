@@ -48,11 +48,11 @@ def merge_sort(list_to_sort):
             index_list += 1
 
 
-# Create a list and plot it before and after sort
+# Create list and sort it
 my_list = [54, 26, 93, 17, 77, 31, 44, 55, 20]
 x = range(len(my_list))
-plt.plot(x, my_list)
+plt.bar(x, my_list)
 plt.show()
 merge_sort(my_list)
-plt.plot(x, my_list)
+plt.bar(x, my_list)
 plt.show()
